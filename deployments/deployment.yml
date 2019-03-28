@@ -14,7 +14,7 @@ spec:
     spec:
         containers:
         - name: user-service
-          image: panyongde/user:latest
+          image: panyongde/shippy-user-service:latest
           imagePullPolicy: Always
           command: [
             "./shippy-user-service",
@@ -25,9 +25,9 @@ spec:
           - name: DB_HOST
             value: "postgres:5432"
           - name: DB_NAME
-            value: "postgres"
+            value: "shippy"
           - name: DB_PASS
-            value: "password"
+            value: "postgres"
           - name: DB_USER
             value: "postgres"
           - name: UPDATED_AT
