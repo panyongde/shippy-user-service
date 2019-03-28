@@ -1,7 +1,7 @@
 package main
 
 import (
-	pb "github.com/panyongde/shippy-user-service/proto/auth"
+	pb "shippy-user-service/proto/auth"
 	"github.com/jinzhu/gorm"
 )
 

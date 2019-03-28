@@ -1,4 +1,7 @@
-FROM golang:1.9.0 as builder
+FROM golang:1.11.5 as builder
+
+ENV http_proxy http://192.168.1.166:8123
+ENV https_proxy http://192.168.1.166:8123
 
 WORKDIR /go/src/github.com/panyongde/shippy-user-service
 

@@ -14,7 +14,7 @@ spec:
     spec:
         containers:
         - name: user-service
-          image: ewanvalentine/user:latest
+          image: panyongde/user:latest
           imagePullPolicy: Always
           command: [
             "./shippy-user-service",

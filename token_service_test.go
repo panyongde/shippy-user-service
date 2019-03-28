@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	pb "github.com/panyongde/shippy-user-service/proto/auth"
+	pb "shippy-user-service/proto/auth"
 )
 
 var (
